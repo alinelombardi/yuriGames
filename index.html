@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Yuri Games</title>
+
+</head>
+
+<body>
+
+    <header class="main-header" id="home">
+        <nav class="main-nav">
+            <a href="#">
+                <img src="imagens/perfil.png" alt="Yuri Rodrigues Lombardi" class="perfil-img">
+            </a>
+            <ul>
+
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobreMim">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <p>Desenvolvido por Aline Lombardi Fernandes</p>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h1 >Yuri Rodrigues Lombardi</h1>
+
+        <article >
+            <h2>Estudante de desenvolvimento web</h2>
+        </article>
+
+        <hr>
+
+        <article id="sobreMim">
+            <h3>Meu objetivo é me tornar um desenvolvedor de jogos 🎮</h3>
+
+            <p>Atualmente, estou cursando o ensino médio integrado à Informática no Instituto Federal - Campus de
+                Hortolândia.</p>
+
+            <p>Nesse primeiro ano, estou imerso em matérias fundamentais. Estudo disciplinas como redes, organização de
+                computadores, programação web, algoritmos e programação Java.</p>
+
+            <p>Além do aprendizado formal, estou sempre em busca de conhecimento extra, realizando cursos voltados para
+                a área de desenvolvimento, para aprimorar minhas habilidades e expandir meus conhecimentos.</p>
+
+            <p>Aqui, compartilharei um pouco do meu dia a dia de estudos, mostrando meu progresso e as descobertas que
+                faço ao longo dessa jornada.</p>
+
+        </article>
+
+        <hr>
+
+        <section id="projetos">
+            <h3>Meus projetos</h3>
+
+            <div class="row">
+
+                <article class="card">
+                    <img src="imagens/site1.png" alt="">
+                    <div class="card_content">
+                        <h3 class="card_title">Café e magia</h3>
+                        <p>Site desenvolvido para praticar as tags HTML e CSS de tema livre</p>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="imagens/site2.png" alt="">
+                    <div class="card_content">
+                        <h3 class="card_title">Educação Ambiental</h3>
+                        <p>Site desenvolvido para praticar conceitos de HTML e CSS, além do trabalho em equipe</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="contato">
+            <h3>Entre em contato</h3>
+
+            <div class="row">
+
+                <form action="">
+                    <div class="row">
+                        <div>
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" id="nome" placeholder="nome completo">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" autocomplete="off">
+                        </div>
+                    </div>
+
+                    <label for="mensagem">Digite sua mensagem</label>
+                    <textarea name="mensagem" id="mensagem" rows="6"></textarea>
+
+                    <input type="submit" value="Enviar" class="btn">
+                </form>
+
+                <address>
+                    <p> <b> Endereço</b> Rua da Alegria, 8 Hortolândia São Paulo</p>
+                    <p> <b> Telefone</b> 55 19 9999 9999</p>
+                    <p> <b> Email</b> email@alegria.com</p>
+                </address>
+
+            </div>
+
+
+        </section>
+
+        <section>
+            <h3>Quiz</h3>
+
+            <form action="" class="form-quiz">
+                <label for="tecnologia">Qual é sua linguagem preferida?</label>
+                <select name="tecnologia" id="tecnologia">
+                    <option value="null">Selecione</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">Javascript</option>
+                </select>
+
+                <label>Baixa Prioridade <input type="radio" name="prioridade" value="baixa"></label>
+                <label>Média Prioridade <input type="radio" name="prioridade" value="media"></label>
+                <label>Alta Prioridade <input type="radio" name="prioridade" value="alta"></label>
+
+                <label> <input type="checkbox" name="copy" value="true"> Envie-me uma cópia</label>
+                <label> <input type="checkbox" name="humano" value="true"> Sou um humano</label>
+
+                <div class="row">
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar" class="btn btn-stroke">
+                </div>
+            </form>
+
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
